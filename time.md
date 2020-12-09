@@ -5,12 +5,12 @@
 
 <h1>Steps</h1>
 
-1° step: Nmap scan
-2° step: Dirsearch (nothing interesting found)
-3° step: Enumeration
-3° step: Test a vector in the web application
-4° step: Getting a shell
-5° step: Privilege escalation
+1° step: Nmap scan\n
+2° step: Dirsearch (nothing interesting found)\n
+3° step: Enumeration\n
+3° step: Test a vector in the web application\n
+4° step: Getting a shell\n
+5° step: Privilege escalation\n
 
 
 <h1>Nmap</h1>
