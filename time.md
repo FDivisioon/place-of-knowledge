@@ -18,25 +18,25 @@
 We found two ports: 22 and 80.
 
 While I was enumerating the webserver, I left running dirsearch.
-![image](https://imgur.com/iFMN0Fv)
+![image](https://imgur.com/iFMN0Fv.png)
 Nothing interesting found.
 
 
 In the webserver, there's a "JSON Beautifier and Validator"
 Testing "Beautify" option, nothing curious was found.
-![image](https://imgur.com/oXxi1e0)
+![image](https://imgur.com/oXxi1e0.png)
 
 But, if we change to "Validate(Beta!)" option, we see something interesting.
-![image](https://imgur.com/Ya1EBHq)
+![image](https://imgur.com/Ya1EBHq.png)
 An error, that's awesome! Let's take a look for it.
 
 That's the complete error:
-![image](https://imgur.com/nGsqPqX)
+![image](https://imgur.com/nGsqPqX.png)
 I marked an interesting factor, let's research it.
 
 
 After some research, I found and read some articles talking about "Jackson Deserialization" and a "RCE" in this library.
 I tried to send '{"FDivision"}' and the error changed:
-![image](https://imgur.com/TMCdfOe)
+![image](https://imgur.com/TMCdfOe.png)
 
 [Github exploit](https://github.com/jas502n/CVE-2019-12384)
