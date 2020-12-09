@@ -14,7 +14,7 @@
 
 
 <h1>Nmap</h1>
-![image](https://i.imgur.com/nNgEXkK.png)<br>
+![image](https://i.imgur.com/nNgEXkK.png "Nmap Scan")<br>
 We found two ports: 22 and 80.
 
 
@@ -36,9 +36,13 @@ That's the complete error:
 I marked an interesting factor, let's research it.
 
 
-After some research, I found and read some articles talking about "Jackson Deserialization" and a "RCE" in this library.
+After some research, I found and read some articles talking about "Jackson Deserialization" and a "RCE" in this library.<br>
 I tried to send '{"FDivision"}' and the error changed:
 ![image](https://imgur.com/TMCdfOe.png)<br>
 
+Searching on google and reading a little, I checked a solution for this error.<br>
+We need to use "[]" instead of "{}"<br>
+Following this thought, I got this response:<br>
+![image](https://imgur.com/yJ0VYq1 "Could not resolve type id 'FDivision', no class found")<br>
 
 [Github exploit](https://github.com/jas502n/CVE-2019-12384)
