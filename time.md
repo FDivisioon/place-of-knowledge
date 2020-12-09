@@ -19,26 +19,26 @@ We found two ports: 22 and 80.
 
 
 While I was enumerating the webserver, I left running dirsearch.
-![image](https://imgur.com/iFMN0Fv.png)<br>
+![image](https://imgur.com/iFMN0Fv.png "Dirsearch")<br>
 Nothing interesting found.
 
 
 In the webserver, there's a "JSON Beautifier and Validator"<br>
 Testing "Beautify" option, nothing curious was found.
-![image](https://imgur.com/oXxi1e0.png)<br>
+![image](https://imgur.com/oXxi1e0.png "Webserver")<br>
 
 But, if we change to "Validate(Beta!)" option, we see something interesting.
-![image](https://imgur.com/Ya1EBHq.png)<br>
+![image](https://imgur.com/Ya1EBHq.png "Validate vector")<br>
 An error, that's awesome! Let's take a look for it.
 
 That's the complete error:
-![image](https://imgur.com/nGsqPqX.png)<br>
+![image](https://imgur.com/nGsqPqX.png "Complete error")<br>
 I marked an interesting factor, let's research it.
 
 
 After some research, I found and read some articles talking about "Jackson Deserialization" and a "RCE" in this library.<br>
 I tried to send '{"FDivision"}' and the error changed:
-![image](https://imgur.com/TMCdfOe.png)<br>
+![image](https://imgur.com/TMCdfOe.png "New error")<br>
 
 Searching on google and reading a little, I checked a solution for this error.<br>
 We need to use "[]" instead of "{}"<br>
