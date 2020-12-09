@@ -45,4 +45,9 @@ We need to use "[]" instead of "{}"<br>
 Following this thought, I got this response:<br>
 ![image](https://imgur.com/yJ0VYq1.png "Could not resolve type id 'FDivision', no class found")<br>
 
-[Github exploit](https://github.com/jas502n/CVE-2019-12384)
+Searching for it, I found an exploit. [Github exploit](https://github.com/jas502n/CVE-2019-12384)<br>
+
+<h1>Let's start exploiting.</h1><br>
+
+First, we need to create a "inject.sql", you just need to change your IP and PORT.
+||teste||
