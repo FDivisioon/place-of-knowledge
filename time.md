@@ -15,7 +15,7 @@
 
 <h1>Nmap</h1>
 ![image](https://i.imgur.com/nNgEXkK.png)
-We found two ports: 22 and 80.
+<br>We found two ports: 22 and 80.
 
 
 
