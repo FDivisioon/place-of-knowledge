@@ -14,7 +14,7 @@
 
 
 <h1>Nmap</h1>
-[img]https://i.imgur.com/nNgEXkK.png[/img]
+![image](https://imgur.com/nNgEXkK)
 
 We found two ports: 22 and 80.
 
