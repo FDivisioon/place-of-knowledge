@@ -14,9 +14,7 @@
 
 
 <h1>Nmap</h1>
-![image](https://imgur.com/nNgEXkK)
-<img src="https://imgur.com/nNgEXkK" alt="hi" class="inline"/>
-
+![image](https://i.imgur.com/nNgEXkK.png)
 We found two ports: 22 and 80.
 
 While I was enumerating the webserver, I left running dirsearch.
