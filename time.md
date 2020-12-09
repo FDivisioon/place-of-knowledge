@@ -43,6 +43,6 @@ I tried to send '{"FDivision"}' and the error changed:
 Searching on google and reading a little, I checked a solution for this error.<br>
 We need to use "[]" instead of "{}"<br>
 Following this thought, I got this response:<br>
-![image](https://imgur.com/yJ0VYq1 "Could not resolve type id 'FDivision', no class found")<br>
+![image](https://imgur.com/yJ0VYq1.png "Could not resolve type id 'FDivision', no class found")<br>
 
 [Github exploit](https://github.com/jas502n/CVE-2019-12384)
