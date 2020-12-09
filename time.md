@@ -76,7 +76,7 @@ Lets try to put our ssh key.<br>
 ![image](https://imgur.com/YIhS0bZ.png "command")<br>
 
 Then we can login as root in SSH:<br>
-![image](https://imgur.com/X0x4wke "rooted")<br>
+![image](https://imgur.com/X0x4wke.png "rooted")<br>
 
 <h1>Just to curious: It has a second way to root.</h1>
 
